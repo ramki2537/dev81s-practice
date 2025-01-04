@@ -1,7 +1,6 @@
 #!/bin/bash
 
 USERID=$(id -u)
-
 R="\e[31m"
 G="\e[32m"
 Y="e\[33m"
@@ -19,7 +18,7 @@ VALIDATE(){
 
 if [ $USERID -ne 0 ]
 then
-    echo -e "$R ERROR: Need sudo access to perform this script $N"
+    echo -e "ERROR: Need sudo access to perform this script"
     exit 1
 fi
 
