@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUMBER=$1
+read -p "Enter number: " NUMBER
 
 if [ $NUMBER -gt 50 ]
 then 
