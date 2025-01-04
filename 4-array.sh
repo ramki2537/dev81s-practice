@@ -9,4 +9,4 @@ echo "Best screenplay movies from: ${MOVIES[3]}"
 
 echo "All cinema industrys: ${MOVIES[@]}"
 
-echo "Number of cinema industrys: $#"
+echo "Number of cinema industrys: ${MOVIES[#]}"
