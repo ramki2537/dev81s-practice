@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo "Enter value1 and value1: "
-read -p number1 number2
+
+read -p "Enter value1: " number1
+read -p "Enter value2: " number2
 
 TIMESTAMP=$(date)
 echo "Script executed on: $TIMESTAMP"
