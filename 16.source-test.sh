@@ -1,6 +1,6 @@
 source ./common.sh
 
-SOURCE_DIR="/home/ec2-user/app-logs"
+SOURCE_DIR="/root/dev81s-practice/app-log"
 echo "Script started executing at: $TIMESTAMP" &>>$LOG_FILE_NAME
 
 FILES_TO_DELETE=$(find $SOURCE_DIR -name "*.log" -mtime +14)
