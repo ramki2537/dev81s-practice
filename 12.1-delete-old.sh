@@ -16,6 +16,8 @@ then
     exit 1
 }
 
+mkdir app-log
+
 echo "This script execute from here: $TIMESTAMP" &>>$LOG_FILE_NAME
 
 FILES_TO_DELETE=$(find $SOURCE_DIR -name "*.log" -mtime +14)
