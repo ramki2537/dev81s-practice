@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE_DIR="/root/dev81s-practice/app-log"
+SOURCE_DIR="/root/new-log"
 LOGS_FOLDER=$"/var/log/practice-log"
 LOG_FILE=$(echo $0 | cut -d "." -f1)
 TIMESTAMP=$(date +%Y-%m-%d-%H-%M-%S)
