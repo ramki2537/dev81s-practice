@@ -27,5 +27,6 @@ while read -r filepath
 do
    echo "Deleting file: $filepath"
    rm -rf $filepath
-   echo "Deleted: $filepath"
-done
+   echo "Deleted file: $filepath"
+done <<< $FILE_TO_DELETE
+
