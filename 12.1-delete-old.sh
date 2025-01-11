@@ -14,6 +14,7 @@ if [ $USERID -ne 0 ]
 then
     echo "Error: You need sudo access to perform this script"
     exit 1
+fi
 }
 
 mkdir app-log
